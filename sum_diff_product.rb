@@ -20,7 +20,7 @@ class Numbers
 
 end
 
-
+ 
 puts "enter first number"
 first_number = gets.chomp.to_i
 

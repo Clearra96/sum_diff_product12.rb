@@ -20,16 +20,15 @@ class Numbers
 
 end
 
-"9 2".split
-myArray=["one","two","three"]
-num=myArray[0]
 
-puts "enter two numbers"
-first_number , second_number = gets.chomp.to_i
+puts "enter first number"
+first_number = gets.chomp.to_i
 
-result = Numbers.new first_number , second_number
+puts "enter second number"
+second_number = gets.chomp.to_i
 
-puts " "
+result = Numbers.new first_number, second_number
+puts ""
 
 puts result.sum
 
